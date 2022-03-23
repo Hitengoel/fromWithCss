@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+form{
+    border: 1px solid grey;
+    border-radius: 20px;
+    width: fit-content;
+
+    padding: 20px;
+}
+
+h2{
+    margin: 20px;
+}
+
+input{
+    margin: 10px;
+
+    outline: none;
+    border: none;
+
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+
+.submitBhai{
+    padding: 5px 10px;
+}
+.submitBhai:hover{
+    background-color: grey;
+    color: black;
+    cursor: pointer;
+}
